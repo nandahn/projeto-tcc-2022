@@ -1,0 +1,129 @@
+:root {
+  --my-background: #ffe2e2;
+  --my-button: #af4040;
+  --primary-color: rgb(11, 78, 179);
+}
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-align: center;
+}
+
+#container-agendamento {
+  width: 100%;
+  height: 700px;
+  background: url(../imagens/banner.png);
+  background-size: cover;
+  -webkit-box-shadow: 0px 0px 8px black inset;
+  -moz-box-shadow: 0px 0px 8px black inset;
+  box-shadow: 0px 0px 8px black inset;
+}
+#rgba {
+  background: rgba(80, 73, 89, 0.3);
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 700px;
+}
+
+#container-a {
+  margin: 0 auto;
+  width: 980px;
+  padding-top: 60px;
+}
+
+/* .box-s {
+  -webkit-box-shadow: 0px 0px 6px #4f4f4f;
+  -moz-box-shadow: 0px 0px 6px #4f4f4f;
+  box-shadow: 0px 0px 6px #4f4f4f;
+} */
+#div-ag h2 {
+  margin: 0;
+  padding: 8px;
+
+  background-color: #f7f7f7f7;
+}
+
+#agendamento {
+  height: 500px;
+  background: #f7f7f7f7;
+  padding: 30px 50px 17px 50px;
+  border-radius: 10px;
+}
+
+#agendamento input,
+select {
+  padding: 6px;
+  margin: 3px 0 15px 0;
+}
+
+/* botoes */
+
+#gerarhr {
+  padding: 8px 20px;
+  border: none;
+  font-size: 12px;
+  text-transform: uppercase;
+  float: center;
+  border-radius: 7px;
+  box-shadow: 2px 2px 1px gray;
+  margin: 5px 0 8px 0;
+  color: white;
+  background-color: var(--my-button);
+}
+
+#ad_local {
+  padding: 8px 20px;
+  border: none;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-size: 10px;
+  float: center;
+  border-radius: 7px;
+  box-shadow: 2px 2px 1px gray;
+  margin: 5px 0 8px 0;
+  color: white;
+  background-color: var(--my-button);
+}
+
+/* resposta do ajax */
+
+#resp-agenda {
+  margin: 0;
+  font-size: 10px;
+  font-weight: bold;
+}
+#dt_a,
+#hr_a,
+#loc_a {
+  /*value de dados vindo no 1ºform*/
+  background: #f7f7f7;
+  border: none;
+  font-size: 13px;
+}
+
+/* botão para agendar */
+#agendar {
+  font-size: 20px;
+  text-transform: uppercase;
+  border: 1px solid white;
+  font-weight: bold;
+  border-radius: 60px;
+  background: var(--my-button);
+  color: white;
+  padding: 11px 26px 9px 26px !important;
+  margin-right: 16px !important;
+}
+
+/* titulos */
+
+#title-agendamento {
+  font-size: 30px;
+}
+
+#title-data-local {
+  font-size: 20px;
+}

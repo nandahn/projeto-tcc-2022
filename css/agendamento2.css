@@ -1,0 +1,217 @@
+:root {
+  --my-background: #ffe2e2;
+  --my-button: #af4040;
+  --primary-color: rgb(11, 78, 179);
+}
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  width: 92%;
+  padding: 15px 3%;
+  margin: 9px auto;
+  border: solid #c1cdc1 2px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #be2433;
+}
+
+.frase {
+  margin: 3px 0;
+}
+
+.espaco {
+  margin: 3px 0 15px 0;
+}
+
+.inexistente {
+  text-align: center;
+  margin: 50px 0;
+  color: rgb(255, 255, 255);
+}
+
+#btn-visualizar {
+  border: none;
+  background: transparent;
+  font-size: 1.2em;
+}
+
+#button-cancelar {
+  border-radius: 15px;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  border: #af4040;
+  background-color: #fff;
+  color: #af4040;
+}
+
+#div-todos {
+  /*div container p/ os card de agendamentos*/
+  width: 100%;
+  height: 700px;
+  background: url(../imagens/banner.png);
+  background-color: rgb(46, 46, 46);
+  background-size: cover;
+  -webkit-box-shadow: 0px 0px 8px black inset;
+  -moz-box-shadow: 0px 0px 8px black inset;
+  box-shadow: 0px 0px 8px black inset;
+}
+
+#title {
+  font-size: 30px;
+  color: #fff;
+  padding-top: 50px;
+}
+.excluir {
+  color: white;
+  border: none;
+  float: right;
+  margin-right: 10px;
+  padding: 5px 10px;
+  font-size: 11px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.bk-vermelho {
+  background: #8b0000;
+}
+.bk-laranja {
+  background: #ce6702;
+}
+
+/*cores do card*/
+.vermelho {
+  color: #721c24;
+}
+.laranja {
+  color: #ce6702;
+}
+.verde {
+  color: #155724;
+}
+
+/* Menu */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --my-background: #ffe2e2;
+  --my-button: #af4040;
+}
+
+header {
+  background-color: var(--my-button);
+  box-shadow: 0px 3px 10px #464646;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 6rem;
+}
+
+.logo img {
+  display: flex;
+  align-items: center;
+  width: 60px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1.15rem;
+  color: #fff;
+  font-weight: 400;
+}
+
+.login-button button {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.login-button button a {
+  text-decoration: none;
+  color: rgb(46, 46, 46);
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.mobile-menu-icon {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+@media screen and (max-width: 730px) {
+  .nav-bar {
+    padding: 1.5rem 4rem;
+  }
+  .nav-item {
+    display: none;
+  }
+  .login-button {
+    display: none;
+  }
+  .mobile-menu-icon {
+    display: block;
+  }
+  .mobile-menu-icon button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  .mobile-menu .nav-item {
+    display: block;
+    padding-top: 1.2rem;
+  }
+  .mobile-menu .login-button {
+    display: block;
+    padding: 1rem 2rem;
+  }
+  .mobile-menu .login-button button {
+    width: 100%;
+  }
+  .open {
+    display: block;
+  }
+}
